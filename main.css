@@ -1,0 +1,331 @@
+body {
+    background-color:#a3ccc4;
+    font-size: 16px;
+    font-family: 'Inter', display;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.navbar {
+    background-color:#a3ccc4;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar>.container-fluid {
+    align-items: baseline;
+}
+
+nav {
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid white;
+}
+
+header {
+    font-family: 'Alfa Slab One', display;
+    font-weight: 100;
+}
+
+/*ffcad4, c08497 f7af9d bfaeb9 */
+.grid-body {
+    display: grid;
+    gap: 3px;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+    
+}
+
+
+.navbar {
+    text-align: right;
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.navbar a {
+    display: inline-block;
+    color: black;
+}
+
+.grid-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+   margin-top: 20px;
+}
+
+header {
+    color:black;
+    font-size: 80px;
+    text-shadow: 2px 2px 4px white;
+    font-style: italic;
+}
+
+.mainContent {
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+    align-items: center;
+    margin:2px;
+}
+
+#portray {
+    margin-bottom: -80px;
+}
+
+.infoAboutMe {
+    width: 30%;
+    font-size: 22px;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.infoAboutMeWide {
+    width: 50%;
+}
+
+
+.moreInfo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 15px;
+}
+.buttonStyle {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #b2657d;
+    border-radius: 10px;
+    background-color: #a95771;
+    color: white;
+}
+
+.buttonStyle:hover {
+    padding: 10px;
+    border: 2px solid #b2657d;
+    border-radius: 10px;
+    background-color: white;
+    color: #b2657d;
+
+}
+
+.footerlink {
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    margin-left: 30px;
+    margin-bottom: -5px;
+}
+
+.footerlink svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+a {
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+
+a:hover {
+    border-color:#b2657d;
+    background-color: #a95771;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.links:hover {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: underline;
+
+}
+
+
+#cv-kuva {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.contactTitle {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+
+.projects {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.section {
+    border: 1px solid #b2657d;
+    border-radius: 10px;
+    background-color: #a95771;
+    color: white;
+    padding: 5px;
+    flex-basis: 33.333%;
+}
+
+.projectTitle {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.projectImages {
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+}
+
+.projectImages img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
+.mainAbout {
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    margin:2px;
+}
+
+#pictureOfMe {
+    margin-bottom: -80px;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    max-width: 60%;
+}
+
+.skillsColumn {
+    text-align: left;
+}
+
+.skillsColumn:first-of-type {
+    width: 30%;
+}
+
+.skillsColumn:last-of-type {
+    width: 70%;
+}
+
+.skillsTitle {
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.skillName {
+    text-align: left;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.balls {
+    display: flex;
+    gap: 6px;
+}
+
+.balls span {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #b2657d;
+    border-radius: 9999px;
+}
+
+.balls span.full {
+    background: #a95771;
+}
+
+@media screen and (max-width: 1024px) {
+    .buttonStyle {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        margin-bottom: 16px;
+    }
+            
+    .mainContent{
+        display: block;
+    }
+
+    header {
+        font-size: 40px;
+    }
+
+    .infoAboutMe {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .buttonStyle {
+        font-size: 16px;
+    }
+
+    #portray {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    #pictureOfMe {
+        display: none;
+    }
+
+    .mainAbout {
+        display: block;
+    }
+
+    .skills {
+        display: block;
+        max-width: 100%;
+    }
+    .skillsColumn:first-of-type {
+        width: 100%;
+    }
+    
+    .skillsColumn:last-of-type {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    #cv-kuva {
+        width:100%;
+        margin-top: 24px;
+    }
+}
